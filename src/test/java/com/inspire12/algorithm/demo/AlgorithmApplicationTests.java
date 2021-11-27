@@ -1,12 +1,9 @@
 package com.inspire12.algorithm.demo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
-
-@SpringBootTest
+//@SpringBootTest
 class AlgorithmApplicationTests {
 
-    @Test
+//    @Test
     void contextLoads() {
     }
 
