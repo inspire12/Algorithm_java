@@ -1,5 +1,8 @@
 package com.inspire12.algorithm.demo.leetcode;
 
+import org.springframework.stereotype.Service;
+
+@Service
 class Solution {
     public String longestPalindrome(String s) {
         if (s.length() <= 1)
