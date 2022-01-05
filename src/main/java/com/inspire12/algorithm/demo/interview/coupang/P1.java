@@ -1,9 +1,6 @@
-package com.inspire12.algorithm.demo.programers.coupang;
+package com.inspire12.algorithm.demo.interview.coupang;
 
 import java.util.Arrays;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.Queue;
 
 public class P1 {
     public String solution(int n, int[][] delivery) {

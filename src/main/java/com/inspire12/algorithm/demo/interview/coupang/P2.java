@@ -1,4 +1,4 @@
-package com.inspire12.algorithm.demo.programers.coupang;
+package com.inspire12.algorithm.demo.interview.coupang;
 
 import java.util.ArrayList;
 import java.util.List;

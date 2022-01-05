@@ -1,4 +1,4 @@
-package com.inspire12.algorithm.demo.leetcode.interview;
+package com.inspire12.algorithm.demo.interview;
 
 import java.util.Arrays;
 

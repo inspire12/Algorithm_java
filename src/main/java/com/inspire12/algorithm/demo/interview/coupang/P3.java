@@ -1,7 +1,4 @@
-package com.inspire12.algorithm.demo.programers.coupang;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.inspire12.algorithm.demo.interview.coupang;
 
 public class P3 {
     // 점들을 가장 길게 연결

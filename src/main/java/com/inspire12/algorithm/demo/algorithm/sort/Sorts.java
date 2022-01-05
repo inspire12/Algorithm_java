@@ -1,13 +1,11 @@
-package com.inspire12.algorithm.demo.programers;
-
-import com.inspire12.algorithm.demo.programers.coupang.P1;
+package com.inspire12.algorithm.demo.algorithm.sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Sort {
+public class Sorts {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(4, 10, 7, 2, 1, 3, 6, 5, 9, 8);
         sortedArrayByBinary(list);
@@ -75,26 +73,4 @@ public class Sort {
         }
         result.add(front, element);
     }
-
-    private static List<Integer> mergeSort(List<Integer> elements) {
-        if (elements.isEmpty()) {
-            return elements;
-        }
-        int mid = elements.size() / 2;
-        List<Integer> frontList = elements.subList(0, mid);
-        List<Integer> endList = elements.subList(mid, elements.size() );
-
-        return merge(mergeSort(frontList), mergeSort(endList));
-
-    }
-
-    private static List<Integer> merge(List<Integer> left, List<Integer> right) {
-        List<Integer> result = new ArrayList<>();
-        int rightIdx = 0;
-//        for () {
-//
-//        }
-        return result;
-    }
-
 }
