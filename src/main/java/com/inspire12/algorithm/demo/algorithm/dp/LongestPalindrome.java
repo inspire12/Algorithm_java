@@ -1,7 +1,5 @@
 package com.inspire12.algorithm.demo.algorithm.dp;
 
-import javax.management.QueryEval;
-
 public class LongestPalindrome {
     public static void main(String[] args) {
         int c = longestPalindrome("acacaccb");

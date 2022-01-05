@@ -1,11 +1,12 @@
-package com.inspire12.algorithm.demo.algorithm.sort;
+
+package com.inspire12.algorithm.demo.programmers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Sorts {
+public class Sort {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(4, 10, 7, 2, 1, 3, 6, 5, 9, 8);
         sortedArrayByBinary(list);
