@@ -6,9 +6,9 @@ import java.util.List;
 public class MergeSort implements Sort<Integer> {
 
     @Override
-    public List<Integer> sort(List<Integer> array) {
+    public List<Integer> sort(List<Integer> list) {
 
-        return mergeSort(array, 0);
+        return mergeSort(list, 0);
     }
 
     public List<Integer> mergeSort(List<Integer> array, int depth) {
