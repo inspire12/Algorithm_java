@@ -1,4 +1,4 @@
-package com.inspire12.algorithm.demo.algorithm.string;
+package com.inspire12.algorithm.demo.algorithm.search.pattern;
 
 import org.springframework.util.StringUtils;
 
