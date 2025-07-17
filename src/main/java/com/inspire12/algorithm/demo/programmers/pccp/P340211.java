@@ -74,6 +74,7 @@ class P340211 {
 
         return answer;
     }
+
     public static void main(String[] args) {
 
         int[][] points = {{3, 2}, {6, 4}, {4, 7}, {1, 4}};

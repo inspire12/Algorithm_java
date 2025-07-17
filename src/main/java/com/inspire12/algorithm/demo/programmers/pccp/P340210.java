@@ -34,7 +34,7 @@ public class P340210 {
         for (String expr : expressions) {
             if (!expr.contains("X")) {
                 boolean[] currentValid = getValidBases(expr, maxDigit + 1);
-                for (int b = 2; b <= 9; b++) {
+                for (int b = maxDigit; b <= 9; b++) {
                     validBases[b] = validBases[b] && currentValid[b];
                 }
             }
