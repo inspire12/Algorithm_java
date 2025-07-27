@@ -9,6 +9,20 @@ import java.util.stream.IntStream;
 
 public class AlgoUtils {
 
+    public static String padStart(int origin, int length, char padChar) {
+        return String.format("%" + length + "s", padChar) + origin;
+    }
+
+    public static String padStart(String str, int length, char padChar) {
+        if (str.length() >= length) return str;
+        StringBuilder sb = new StringBuilder();
+        for (int i = str.length(); i < length; i++) {
+            sb.append(padChar);
+        }
+        sb.append(str);
+        return sb.toString();
+    }
+
     static boolean chMin(IntUnaryOperator setter, int cur) {         // setter.accept(newVal) 역할
         int v = setter.applyAsInt(0);                                 // 현재값 꺼내기
         if (cur < v) { setter.applyAsInt(cur); return true; }

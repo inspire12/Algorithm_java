@@ -19,6 +19,7 @@ public class LongestPalindrome {
                 for (int check=0; check < (end - start + 1); check++) {
                     if (s.charAt(check + start) != s.charAt(end - check)) {
                         isPalindrome = false;
+                        break;
                     }
                 }
 
